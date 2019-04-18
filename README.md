@@ -1,9 +1,9 @@
-- QueueSaver
+# QueueSaver
 
 Downloads queue contents to the file system; used for a specific purpose
 but easily adapted.
 
-\*\* Instructions
+## Instructions
 
 Create .env file or set the following environment variables:
 
