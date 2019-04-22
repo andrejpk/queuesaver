@@ -32,7 +32,7 @@ function processMessages () {
         fs.writeFileSync (filename, JSON.stringify (body, null, ' '), 'utf8');
 
         queueSvc.deleteMessage (
-          queueName,
+          QUEUE_NAME,
           message.messageId,
           message.popReceipt,
           function (error) {
